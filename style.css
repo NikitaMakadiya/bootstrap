@@ -70,16 +70,51 @@
 .home .contant h5 {
   color: white;
   font-size: 38px;
-  font-weight: 500;
+  font-weight: 550;
   text-shadow: 0px, 1px, 1px, black;
 }
 
 .home .contant h1 {
   color: white;
   font-size: 70px;
-  font-weight: 600;
+  font-weight: 550;
   text-shadow: 0px 1px 1px black;
   margin-top: 5px;
+}
+
+.home .contant p {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+}
+.changecontent::after {
+  content: "";
+  color: #ffa500;
+  text-shadow: 0px 1px 1px black;
+  animation: changetext 10s infinite linear;
+}
+@keyframes changetext {
+  0% {
+    content: "france";
+  }
+  20% {
+    content: "India";
+  }
+  40% {
+    content: "America";
+  }
+  60% {
+    content: "Africa";
+  }
+  80% {
+    content: "Landon";
+  }
+  100% {
+    content: "pakistan";
+  }
 }
 
 /* home section end */
